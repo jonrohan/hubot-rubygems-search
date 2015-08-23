@@ -7,10 +7,10 @@
   "keywords": "hubot, hubot-scripts, rubygems, search, ruby, gem",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-rubygems-search.git"
+    "url": "git://github.com/jonrohan/hubot-rubygems-search.git"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-rubygems-search/issues"
+    "url": "https://github.com/jonrohan/hubot-rubygems-search/issues"
   },
   "dependencies": {},
   "peerDependencies": {
