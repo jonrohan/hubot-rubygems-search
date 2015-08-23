@@ -2,14 +2,14 @@
 #   Use hubot to search rubygems.org for a specific gem.
 #
 # Commands:
-#   hubot gems me <query> - Search rubygems.org for a gem
+#   hubot gem me <query> - Search rubygems.org for a gem
 #
 # Author:
 #   Jon Rohan <jon@jonrohan.me>
 
 
 module.exports = (robot) ->
-  robot.respond /gems( me)? (.*)/i, (msg) ->
+  robot.respond /gem( me)? (.*)/i, (msg) ->
     query = msg.match[2]
     robot.http("https://rubygems.org/api/v1/search.json")
       .query({
