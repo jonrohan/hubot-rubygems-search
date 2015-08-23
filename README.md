@@ -1,6 +1,6 @@
 # hubot-rubygems-search
 
-Search rubygems.org for a specific gem.
+Use hubot to search rubygems.org for a specific gem. Suggestions welcome read over the [contributing](/CONTRIBUTING.md) guidelines.
 
 See [`src/rubygems-search.coffee`](src/rubygems-search.coffee) for full documentation.
 
@@ -21,6 +21,8 @@ Then add **hubot-rubygems-search** to your `external-scripts.json`:
 ## Sample Interaction
 
 ```
-user1>> hubot hello
-hubot>> hello!
+user1>> hubot gem jekyll
+hubot>> jekyll — Jekyll is a simple, blog aware, static site generator.
+        latest release: 2.5.3
+        https://rubygems.org/gems/jekyll
 ```

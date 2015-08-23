@@ -1,5 +1,5 @@
 # Description
-#   Search rubygems.org for a specific gem.
+#   Use hubot to search rubygems.org for a specific gem.
 #
 # Commands:
 #   hubot gems me <query> - Search rubygems.org for a gem
@@ -22,4 +22,4 @@ module.exports = (robot) ->
 
         gem = gems[0]
 
-        msg.send "#{gem.name} — #{gem.info}\nlatest release: v.#{gem.version}\n#{gem.project_uri}"
+        msg.send "#{gem.name} — #{gem.info}\nlatest release: #{gem.version}\n#{gem.project_uri}"
