@@ -9,17 +9,22 @@
 
 
 module.exports = (robot) ->
-  robot.respond /gem( me)? (.*)/i, (msg) ->
+  robot.respond /gem( me)? (.+)/i, (msg) ->
     query = msg.match[2]
     robot.http("https://rubygems.org/api/v1/search.json")
       .query({
         query: query
       })
       .get() (err, res, body) ->
-        gems = JSON.parse(body)
 
-        return msg.send "No gem found." if gems.length == 0
+        return msg.send "Error :: #{err}" if err
+        try
+          gems = JSON.parse(body)
+        catch error
+          return msg.send "Error :: rubygems api error."
 
-        gem = gems[0]
+        gem = gems.reverse().pop()
+
+        return msg.send "No gem found." unless gem
 
         msg.send "#{gem.name} — #{gem.info}\nlatest release: #{gem.version}\n#{gem.project_uri}"
