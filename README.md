@@ -28,3 +28,12 @@ hubot>> jekyll — Jekyll is a simple, blog aware, static site generator.
         latest release: 2.5.3
         https://rubygems.org/gems/jekyll
 ```
+
+## Related
+
+* [hubot-itunes-search](https://github.com/jonrohan/hubot-itunes-search)
+* [hubot-slack-reactions](https://github.com/jonrohan/hubot-slack-reactions)
+
+## License
+
+MIT &copy; [Jon Rohan](http://jonrohan.codes)
