@@ -5,7 +5,7 @@
 #   hubot gem me <query> - Search rubygems.org for a gem
 #
 # Author:
-#   Jon Rohan <jon@jonrohan.me>
+#   Jon Rohan <yes@jonrohan.codes>
 
 
 module.exports = (robot) ->
