@@ -2,7 +2,7 @@
   "name": "hubot-rubygems-search",
   "description": "Use hubot to search rubygems.org for a specific gem.",
   "version": "0.2.2",
-  "author": "Jon Rohan <jon@jonrohan.me>",
+  "author": "Jon Rohan <yes@jonrohan.codes>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, rubygems, search, ruby, gem",
   "repository": {
