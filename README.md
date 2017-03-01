@@ -1,5 +1,7 @@
 # hubot-rubygems-search
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jonrohan/hubot-rubygems-search.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/jonrohan/hubot-rubygems-search.svg)](https://travis-ci.org/jonrohan/hubot-rubygems-search)
 
 Use hubot to search rubygems.org for a specific gem. Suggestions welcome read over the [contributing](/CONTRIBUTING.md) guidelines.
